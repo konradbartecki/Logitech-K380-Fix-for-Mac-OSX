@@ -33,7 +33,7 @@
                 {
                     "type": "basic",
                     "from": {
-                        "key_code": "display_brightness_increment"
+                        "key_code": "illumination_increment"
                     },
                     "to": [{"key_code": "page_up"}]
                 }
