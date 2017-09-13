@@ -1,5 +1,5 @@
 {
-    "title": "Home, End, Page Up, Page Down keys for Logitech K380 v2",
+    "title": "Home, End, Page Up, Page Down keys for Logitech K380 (with Logitech Options uninstalled)",
     "rules": [
         {
             "description": "Change left arrow + fn to home",
@@ -33,7 +33,8 @@
                 {
                     "type": "basic",
                     "from": {
-                        "key_code": "display_brightness_increment"
+                        "key_code": "up_arrow",
+                        "modifiers":{ "mandatory":["left_option"]}
                     },
                     "to": [{"key_code": "page_up"}]
                 }
