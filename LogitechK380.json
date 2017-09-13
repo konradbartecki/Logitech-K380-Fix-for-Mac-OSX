@@ -1,0 +1,57 @@
+{
+    "title": "Home, End, Page Up, Page Down keys for Logitech K380",
+    "rules": [
+        {
+            "description": "Change left arrow + fn to home",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "left_arrow",
+                        "modifiers":{ "mandatory":["left_option", "left_shift"]}
+                    },
+                    "to": [{"key_code": "home"}]
+                }
+            ]
+        },
+        {
+            "description": "Change right arrow + fn to end",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "right_arrow",
+                        "modifiers":{ "mandatory":["left_option", "left_shift"]}
+                    },
+                    "to": [{"key_code": "end"}]
+                }
+            ]
+        },
+        {
+            "description": "Change up arrow + fn to page up",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "up_arrow",
+                        "modifiers":{ "mandatory":["fn"]}
+                    },
+                    "to": [{"key_code": "page_up"}]
+                }
+            ]
+        },
+        {
+            "description": "Change down arrow + fn to page down",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "down_arrow",
+                        "modifiers":{ "mandatory":["fn"]}
+                    },
+                    "to": [{"key_code": "page_down"}]
+                }
+            ]
+        }
+    ]
+}
