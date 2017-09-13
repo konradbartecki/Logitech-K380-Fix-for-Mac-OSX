@@ -34,7 +34,6 @@
                     "type": "basic",
                     "from": {
                         "key_code": "display_brightness_increment"
-                        // "modifiers":{ "mandatory":["left_option"]}
                     },
                     "to": [{"key_code": "page_up"}]
                 }
