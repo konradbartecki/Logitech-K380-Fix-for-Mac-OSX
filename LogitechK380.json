@@ -34,7 +34,7 @@
                     "type": "basic",
                     "from": {
                         "key_code": "up_arrow",
-                        "modifiers":{ "mandatory":["fn"]}
+                        "modifiers":{ "mandatory":["left_option"]}
                     },
                     "to": [{"key_code": "page_up"}]
                 }
@@ -47,7 +47,7 @@
                     "type": "basic",
                     "from": {
                         "key_code": "down_arrow",
-                        "modifiers":{ "mandatory":["fn"]}
+                        "modifiers":{ "mandatory":["left_option"]}
                     },
                     "to": [{"key_code": "page_down"}]
                 }
